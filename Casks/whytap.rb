@@ -5,7 +5,7 @@ cask "whytap" do
   url "https://github.com/AbsoluteMode/whytap/releases/download/v#{version}/Whytap-latest.dmg"
   name "Whytap"
   desc "Voice dictation, meeting notes and AI agent in the notch, with your own keys"
-  homepage "https://whytap.ai"
+  homepage "https://whytap.ai/"
 
   livecheck do
     url :url
@@ -13,7 +13,7 @@ cask "whytap" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Whytap.app"
 
