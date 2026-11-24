@@ -1,6 +1,6 @@
 cask "whytap" do
-  version "2.2.26"
-  sha256 "23595af7e8a0508abf22e690d992e504bfdbf13748fa90120f2c89a4c724275e"
+  version "2.2.27"
+  sha256 "a9d2615de76afa61e6be5cb9346ecda50bbc104da38f46087712017e9e7552bf"
 
   url "https://github.com/AbsoluteMode/whytap/releases/download/v#{version}/Whytap-latest.dmg"
   name "Whytap"
